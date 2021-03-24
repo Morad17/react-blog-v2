@@ -7,6 +7,6 @@ export default function PostMasonry (posts, columns, tagsOnTop) {
             { posts.map((post, index) => {
                 <MasonryPost {...{post, index, tagsOnTop, key: index}} />}
             )}
-        </section>
+        </section> 
     )
 }
